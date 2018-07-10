@@ -48,6 +48,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
@@ -455,6 +456,7 @@
     <Compile Include="ShellStream.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="SmartcardAuthenticationMethod.cs" />
     <Compile Include="SshClient.cs" />
     <Compile Include="SshCommand.cs" />
     <Compile Include="SshMessageFactory.cs" />
